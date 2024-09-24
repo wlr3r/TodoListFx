@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc2ee05f-7e6a-44f9-a9a7-6dff9c60e490" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/appli/accueil/InscriptionView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/appli/accueil/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/appli/todolistfx/LoginController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/appli/todolistfx/StartApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/appli/StartApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/appli/todolistfx/loginview.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/appli/StartApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/appli/StartApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +92,7 @@
       <workItem from="1727177986964" duration="626000" />
       <workItem from="1727178874128" duration="1663000" />
       <workItem from="1727180696150" duration="445000" />
+      <workItem from="1727181476282" duration="1614000" />
     </task>
     <servers />
   </component>
