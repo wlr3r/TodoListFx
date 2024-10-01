@@ -11,6 +11,12 @@ import java.sql.SQLException;
 public class UtilisateurRepository {
 
     public boolean inscription(Utilisateur utilisateur) {
+        // Check if the email already exists
+        if (getUtilisateurByEmail(utilisateur.getEmail()) != null) {
+            System.out.println("Email déjà existent !");
+            return false;
+        }
+
         String query = "INSERT INTO Utilisateur (nom, prenom, email, mdp) VALUES (?, ?, ?, ?)";
         try (Connection connection = new Database().getConnexion();
              PreparedStatement preparedStatement = connection.prepareStatement(query)) {
@@ -24,6 +30,30 @@ public class UtilisateurRepository {
             e.printStackTrace();
             return false;
         }
+    }
+
+    public Utilisateur getUtilisateurByEmail(String email) {
+        Utilisateur utilisateur = null;
+        String query = "SELECT * FROM Utilisateur WHERE email = ?";
+
+        try (Connection connection = new Database().getConnexion();
+             PreparedStatement preparedStatement = connection.prepareStatement(query)) {
+            preparedStatement.setString(1, email);
+            ResultSet resultSet = preparedStatement.executeQuery();
+
+            if (resultSet.next()) {
+                utilisateur = new Utilisateur();
+                utilisateur.setId(resultSet.getInt("id_utilisateur"));
+                utilisateur.setNom(resultSet.getString("nom"));
+                utilisateur.setPrenom(resultSet.getString("prenom"));
+                utilisateur.setEmail(resultSet.getString("email"));
+                utilisateur.setMdp(resultSet.getString("mdp"));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return utilisateur;
     }
 
     public Utilisateur connexion(String email, String mdp) {
