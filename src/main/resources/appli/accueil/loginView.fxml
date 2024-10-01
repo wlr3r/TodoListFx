@@ -9,8 +9,8 @@
    <children>
       <Text layoutX="126.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BIENVENUE !" />
       <Text layoutX="127.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Votre Email :" />
-      <TextField layoutX="86.0" layoutY="175.0" />
-      <TextField layoutX="88.0" layoutY="96.0" />
+      <TextField fx:id="txtEmail" layoutX="88.0" layoutY="96.0" />
+      <TextField fx:id="txtMdp" layoutX="86.0" layoutY="175.0" />
       <Text layoutX="105.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Votre mot de passe :" />
       <Button fx:id="connexion" layoutX="124.0" layoutY="227.0" mnemonicParsing="false" onAction="#OnActionConnexion" text="Connexion" />
       <Button fx:id="motDePasseOublie" layoutX="98.0" layoutY="269.0" mnemonicParsing="false" onAction="#OnActionMdpOublie" text="Mot de passe oublié" />

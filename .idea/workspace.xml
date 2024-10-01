@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc2ee05f-7e6a-44f9-a9a7-6dff9c60e490" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/appli/Database/database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/appli/model/Utilisateur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/appli/model/repository/UtilisateurRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/appli/Database/database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/appli/Database/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/appli/accueil/InscriptionView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/appli/accueil/InscriptionView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/appli/accueil/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/appli/accueil/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/appli/accueil/inscriptionView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/appli/accueil/inscriptionView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/appli/accueil/loginView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/appli/accueil/loginView.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +49,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2mSZDyRc2PTzpkmbC7AowrkHQzU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,7 +59,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.HelloApplication.executor": "Run",
-    "Application.StartApplication.executor": "Debug",
+    "Application.StartApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -113,6 +121,7 @@
       <workItem from="1727183840410" duration="113000" />
       <workItem from="1727185579564" duration="355000" />
       <workItem from="1727247966893" duration="798000" />
+      <workItem from="1727783172775" duration="3053000" />
     </task>
     <servers />
   </component>
@@ -124,7 +133,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/appli/accueil/LoginController.java</url>
-          <line>16</line>
+          <line>26</line>
           <properties class="appli.accueil.LoginController" method="OnActionMdpOublie">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
