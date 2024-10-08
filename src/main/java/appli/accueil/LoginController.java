@@ -1,6 +1,7 @@
 package appli.accueil;
 
 import appli.StartApplication;
+import appli.model.repository.UtilisateurRepository;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
@@ -15,12 +16,18 @@ public class LoginController {
     @FXML
     private TextField txtMdp;
 
+    private UtilisateurRepository utilisateurRepository = new UtilisateurRepository();
+
     @FXML
     private void OnActionConnexion() {
         String email = txtEmail.getText();
         String mdp = txtMdp.getText();
 
-        System.out.println("Connexion");
+        if (utilisateurRepository.connexion(email, mdp)) {
+            StartApplication.changeScene("accueil/welcomeView", "Bienvenue");
+        } else {
+            System.out.println("Identifiants invalides");
+        }
     }
 
     @FXML

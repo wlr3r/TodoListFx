@@ -15,13 +15,12 @@ public class StartApplication extends Application {
         mainStage = stage;
         FXMLLoader fxmlLoader = new FXMLLoader(StartApplication.class.getResource("accueil/loginView.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-        mainStage.setTitle("Hello!");
+        mainStage.setTitle("Login");
         mainStage.setScene(scene);
         mainStage.show();
     }
 
     public static void changeScene(String fxml, String nomScene) {
-        mainStage.close();
         FXMLLoader fxmlLoader = new FXMLLoader(StartApplication.class.getResource(fxml + ".fxml"));
         Scene scene = null;
         try {
