@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc2ee05f-7e6a-44f9-a9a7-6dff9c60e490" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/appli/accueil/AccueilController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/appli/accueil/AccueilView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/appli/accueil/Liste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/appli/accueil/WelcomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/appli/accueil/welcomeView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/appli/accueil/welcomeView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/appli/accueil/AccueilView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/appli/accueil/AccueilView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/appli/accueil/accueilView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/appli/accueil/accueilView.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +28,12 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {}
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/wlr3r/TodoListFx&quot;,
-    &quot;accountId&quot;: &quot;46e8e52d-541c-41e4-9623-1c899f2b9008&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/wlr3r/TodoListFx",
+    "accountId": "46e8e52d-541c-41e4-9623-1c899f2b9008"
   }
-}</component>
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -58,16 +55,20 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.HelloApplication.executor": "Run",
-    "Application.StartApplication.executor": "Debug",
+    "Application.StartApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/adminsamy/IdeaProjects/TodoListFx/src/main/java/appli",
+    "last_opened_file_path": "C:/Users/adminsamy/IdeaProjects/TodoListFx",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
@@ -124,7 +125,9 @@
       <workItem from="1728388575194" duration="1153000" />
       <workItem from="1728389761691" duration="4051000" />
       <workItem from="1728548654520" duration="46000" />
-      <workItem from="1728548750097" duration="2131000" />
+      <workItem from="1728548750097" duration="2482000" />
+      <workItem from="1728566689525" duration="29000" />
+      <workItem from="1728566740680" duration="418000" />
     </task>
     <servers />
   </component>
